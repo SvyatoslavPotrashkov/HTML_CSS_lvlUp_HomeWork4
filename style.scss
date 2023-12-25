@@ -1314,6 +1314,10 @@ body {
         max-width: 375px;
     }
 
+    .container2 {
+        justify-content: center;
+    }
+
     .mobile__hidden {
         display: none;
     }
@@ -1372,6 +1376,34 @@ body {
 
     .fluid__footer_bottom {
         padding-top: 43px;
+    }
+
+    .cart {
+
+        justify-content: center;
+
+        &__item {
+            width: 375px;
+
+            &__dsc {
+                padding-left: 9px;
+            }
+        }
+
+        &__2block {
+            &__input {
+                padding: 0;
+            }
+
+            &__input::placeholder {
+                padding-left: 17px;
+            }
+        }
+    }
+
+    .background-tint {
+        padding-top: 64px;
+        padding-bottom: 110px;
     }
 }
 
